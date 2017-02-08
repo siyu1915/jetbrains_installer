@@ -20,7 +20,4 @@ try:
         print("\t" + tar_file)
         extract(tar_file, extract_path)
 except tarfile.TarError:
-    print()
-
-
-
+    print("Cannot extract files!")
